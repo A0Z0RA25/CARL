@@ -12,22 +12,16 @@ function Skills(){
                 <p>My Technical Level</p>
             </div>
             
-            <div className="border border-black md:w-fit md:h-[400px] rounded-md text-center mx-auto my-10 px-8">
+            <div className="border border-black md:h-[400px] md:w-full rounded-md text-center mx-auto my-10 px-8 pb-5">
                 <h1 className='text-xl my-6'>Frontend Developer</h1>
-                    <ul className="grid grid-cols-3 text-3xl text-justify">
-                        <li><FontAwesomeIcon icon="fa-brands fa-html5" />HTML</li>
-                        <hr />
-                        <li><FontAwesomeIcon icon="fa-brands fa-css3" />CSS</li>
-                        <hr />
-                        <li><FontAwesomeIcon icon="fa-brands fa-js" />JavaScript</li>
-                        <hr />
-                        <li><FontAwesomeIcon icon="fa-solid fa-code" />Tailwind css</li>
-                        <hr />
-                        <li><FontAwesomeIcon icon="fa-brands fa-git-alt" />Git</li>
-                        <hr />
-                        <li><FontAwesomeIcon icon="fa-brands fa-github" />Github</li>
-                        <hr />
-                        <li><FontAwesomeIcon icon="fa-brands fa-react" />React</li>
+                    <ul className="grid md:grid-cols-3 gap-5 md:text-3xl text-xl text-center">
+                        <li><FontAwesomeIcon icon="fa-brands fa-html5" />HTML <hr className='border border-black w-1/2 mx-auto' /></li>
+                        <li><FontAwesomeIcon icon="fa-brands fa-css3" />CSS <hr className='border border-black w-1/2 mx-auto' /></li>
+                        <li><FontAwesomeIcon icon="fa-brands fa-js" />JavaScript <hr className='border border-black w-1/2 mx-auto' /></li>
+                        <li><FontAwesomeIcon icon="fa-solid fa-code" />Tailwind css <hr className='border border-black w-1/2 mx-auto' /></li>
+                        <li><FontAwesomeIcon icon="fa-brands fa-git-alt" />Git <hr className='border border-black w-1/2 mx-auto' /></li>
+                        <li><FontAwesomeIcon icon="fa-brands fa-github" />Github <hr className='border border-black w-1/2 mx-auto' /></li>
+                        <li><FontAwesomeIcon icon="fa-brands fa-react" />React <hr className='border border-black w-1/2 mx-auto' /></li>
                     </ul>
             </div>
         </div>

@@ -5,6 +5,7 @@ import Navbar from './navcontainer/navbar';
 import Projects from './projectContainer/projects';
 import About from './aboutContainer/about';
 import Skills from './skillContainer/skills';
+import Contact from './contactContainer/contact';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faTwitter, faFacebook, faPinterest, faGithub, faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
@@ -28,6 +29,7 @@ function App() {
         {showSection === "projects" && <Projects />}
         {showSection === "about" && <About />}
         {showSection === "skills" && <Skills />}
+        {showSection === "contact" && <Contact />}
       </div>
     </Router>
   );
