@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './CARL/App.css';
-import Hero from './CARL/heroContainer/hero';
-import Navbar from './CARL/navcontainer/navbar';
-import Projects from './CARL/projectContainer/projects';
-import About from './CARL/aboutContainer/about';
-import Skills from './CARL/skillContainer/skills';
-import Contact from './CARL/contactContainer/contact';
+import '/CARL/App.css';
+import Hero from '/CARL/heroContainer/hero';
+import Navbar from '/CARL/navcontainer/navbar';
+import Projects from '/CARL/projectContainer/projects';
+import About from '/CARL/aboutContainer/about';
+import Skills from '/CARL/skillContainer/skills';
+import Contact from '/CARL/contactContainer/contact';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faTwitter, faFacebook, faPinterest, faGithub, faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
